@@ -133,7 +133,7 @@
         <always_on>true</always_on>
         <visualize>true</visualize>
         <pose>-0.032 0 0.171 0 0 0</pose>
-        <update_rate>5</update_rate>
+        <update_rate>20</update_rate>
         <ray>
           <scan>
             <horizontal>
@@ -145,7 +145,7 @@
           </scan>
           <range>
             <min>0.120000</min>
-            <max>3.5</max>
+            <max>8.5</max>
             <resolution>0.015000</resolution>
           </range>
           <noise>
