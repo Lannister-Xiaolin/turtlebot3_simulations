@@ -1,6 +1,77 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package turtlebot3_gazebo_ros
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package turtlebot3_gazebo
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2.2.4 (2021-06-14)
+------------------
+* Release for ROS2 Galactic
+* Separate world and robot models(#162)
+* Clean up unncessary files
+* Use turtlebot3_common mesh modeling
+* Independent turtlebot3_simulations package
+* Contributors: Joep Tool, Will Son
+
+2.2.3 (2021-04-12)
+------------------
+* Update required keyword arguments
+* Clear up exec_depend
+* Fix Waffle Pi wheel inertia
+* Contributors: ruffsl, Will Son
+
+2.2.2 (2021-02-24)
+------------------
+* Remove shared objects built in older version
+* Contributors: Will Son
+
+2.2.1 (2021-01-13)
+------------------
+* Eloquent Elusor EOL
+* Add missing imu joint in sdf
+* Append Gazebo model path
+* Portable fix, launch description revise
+* Ament lint applied
+* Contributors: minwoominwoominwoo7, Rayman, seanyen, ashe kim, Will Son
+
+2.2.0 (2020-06-29)
+------------------
+* TurtleBot3 Drive node implementation
+* Additional Gazebo maps added
+* argument tags in the sdf file replaced with remapping tags
+* Low polygon 3D modeling applied for simulation
+* Contributors: Ryan Shim, Mikael Arguedas, Will Son
+
+2.1.0 (2019-09-10)
+------------------
+* Added turtlebot3_house and related world, model files
+* Contributors: Ryan Shim
+
+2.0.1 (2019-09-05)
+------------------
+* Modified dependency packages
+* Modified launch directory
+* Added a launch file for robot state publisher
+* Contributors: Darby Lim, Pyo
+
+2.0.0 (2019-08-20)
+------------------
+* Supported ROS 2 Dashing Diademata
+* Updated the CHANGELOG and version to release binary packages
+* Contributors: Darby Lim, Pyo
+
+1.3.0 (2020-06-29)
+------------------
+* Turtlebot3 Autorace 2020 implemented
+* Remove the plugin_path from gazebo_ros export
+* Remove *nix path separator
+* Contributors: Ashe Kim, Ben Wolsieffer, Sean Yen
+
+1.2.0 (2019-01-22)
+------------------
+* moved <scene> into <world> `#65 <https://github.com/ROBOTIS-GIT/turtlebot3_simulations/issues/65>`_
+* modified ML stage
+* delete unused param
+* update algorithm and modified variable more clearly
+* Contributors: Darby Lim, Gilbert, Louise Poubel, Pyo
 
 1.3.2 (2021-07-13)
 ------------------
